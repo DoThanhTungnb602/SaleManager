@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCFFFF"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+
+    tools:context="com.mobile.quanlybanhangonline.activity.admin.BusinessManagementActicity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:text="QUẢN LÝ BÁN HÀNG ONLINE"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="Hóa đơn"
+        android:textColorLink="#000011"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:width="320dp" />
+
+    <Button
+        android:id="@+id/btnStatistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnBill"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="Thống kê kinh doanh"
+        android:textColorLink="#000011"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:width="330dp" />
+    <Button
+        android:id="@+id/btnUserManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnStatistic"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="Quản lý User"
+        android:textColorLink="#000011"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:width="330dp" />
+
+    <Button
+        android:id="@+id/btnProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/btnBill"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="Quản lý sản phẩm"
+        android:textColorLink="#000011"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:width="320dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnUserManagement"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="Logout"
+        android:textColorLink="#000011"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:width="320dp" />
+
+</RelativeLayout>
+
+
